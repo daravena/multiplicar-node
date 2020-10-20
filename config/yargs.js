@@ -6,7 +6,7 @@ const opts = {
   limite: {
     demand: true,
     alias: 'l',
-    default: 10
+    default: 5
   }
 }
 const argv = require('yargs')

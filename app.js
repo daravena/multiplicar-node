@@ -4,12 +4,13 @@ const { demand } = require('yargs');
 const { argv } = require('./config/yargs')
 
 //let argv2 = process.argv;
-console.log(argv)
+console.log('....', argv)
 //console.log(argv2)
 // let parametro = process.argv[2];
 // let base = parametro.split('=')[1];
 
 let comando = argv._[0];
+    console.log('limte:.'+argv.limite)
 
 
 switch (comando) {
